@@ -1,0 +1,112 @@
+/*-----------------------------------GENERALE------------------------------*/
+body{color:#1e073f;font-size:19px; font-family: 'Times New Roman', Times, serif;
+}
+a{color:#1e073f;text-decoration:none ;}
+a:hover{color:#67548a;}
+.fieldset{ border-radius:20px; background-color: #c0b5ce	;border-color:#210943;
+        border-width:4px;width:auto; color:#1e073f; margin: 40px;}
+        .fieldset3{ border-radius:20px; background-color: #c0b5ce;border-color:#210943;
+            border-width:4px;width:80%; color:#1e073f;}           
+.td{height:40px;}
+ input{border-radius:20px;border-color:#210943; border-width:2px;
+height:40px; color:#210943; width: 400px; background-color: #ddd5ec; margin: 2px;}
+.btn{ border-radius:20px;border-color:#210943; border-width:2px; height:30px;
+color:#c0b5ce;width: 100px;background-color:#210943;margin: 5px; }
+nav ul{list-style:none ;}
+.deconnexion{width: 10px;}
+.flashbag{width: 1235px;height: auto;text-align: center;color: #210943;}
+.errors{ width: 1235px; height: auto; color: #210943; } 
+/*----------------------------HEADER---------------------------------------*/
+header{width:1235px;height:150px; position:relative;}
+ .logo{position: absolute;left: 2%;top:25%;}
+ .cover{position: absolute; right: inherit;}
+/*============================INDEX===================================*/
+.cardsuser{position: relative;padding: 20px;width: 90%;border: 1px solid #210943;}
+.col1{display: inline-block;width: 200px;margin: 10px;border-style:solid;
+    border-color: #c0b5ce;border-width: 1px;}
+.imgcard{ border-bottom: 1px solid #c0b5ce;}
+.card-foot{ border-top: 1px solid #c0b5ce;}
+.btn2{border-radius:20px;border-color:#210943; border-width:2px;height:30px;
+color:#c0b5ce;width: 100px;background-color:#210943;margin: 5px;left: 5px;position: absolute; }
+.barre{width: 20px;}
+.input1 {background: none;cursor: pointer;width: 30px;height: 30px;position: absolute;}
+.input3{ border:#210943 1px solid ;height:30px;color:#210943;width: 400px;
+    background-color: #ddd5ec;margin: 2px;}
+.divbarre{position: relative;}
+#barre{position: absolute;right: 60px;}
+.paginate{ position: relative;}
+.pagination ul{position: absolute;list-style: none;text-align:center;right: 0.5%;display: inline-flex;}
+.pagination li{display: inline-table;border: solid 1px #210943;color: #1e073f;width:50px;
+background-color:#c0b5ce ;}
+.pagination p{position: absolute;display: inline;color: #1e073f;left: 0.5%;}
+.page-item1{visibility: hidden;}
+/*============================Ajouter user===================================*/
+.formcu{position: relative;}
+label{position: absolute;left:2px;}
+/*============================Afficher user===================================*/
+.fieldset2{border-radius:20px;background-color: #ddd5ec	; border-color:#210943;
+ border-width:1px; width:60%; height:230px ; color:#1e073f; position: relative; padding: 5%; left:15%; }
+.imgshow{ position: absolute; right: 100px; border-radius:20px; border-color:#210943; border-width:1px; }
+.userSM{ position: absolute; right: 140px; bottom: 0px;}
+.tab2 tr {height: 40px;}
+/*============================Afficher cat===================================*/
+.tab1 td{ width:200px ;border-block-end:#1e073f 1px outset  ;text-align: center; height: 70px;background-color: #ede7f5; }
+.tab1 th{ width:200px ; height: 70px;border-bottom: #1e073f 1px outset;background-color: #c0b5ce;}
+#input{
+    border-radius:20px;border-color:#210943; border-width:2px;
+height:40px; color:#210943; width: 400px; background-color: #ddd5ec; margin: 2px;
+}
+.prix{
+    visibility: hidden;
+    height: 0px;
+}
+
+.all{
+    position: relative;
+    width: 1235px;
+}
+.sec1{
+    position: absolute;
+    width: 230px;
+    height: 700px;
+    left:0px ;
+    border-style:outset;
+
+}
+.slot{
+    position: absolute;
+    width: 1000px;
+    right: 0px;
+}
+.nav div {
+    height: 40px;
+    left: 0px;
+    background-color: #c0b5ce;
+    margin-bottom: 2px;
+    font-style: italic;
+    padding: 10px;
+
+}
+.dash div{
+height: 200px;
+width: 450px;
+display: inline-block;
+margin:20px ;
+background-size:cover;
+font-style: oblique;
+font-weight: bold;
+}
+#d1{background-image: url('/images/employer-471748455-612x612.jpg') ;color:rgb(25, 25, 65); }
+#d2{background-image: url('/images/11-Client-Background-information.png') ;color: #000;}
+#d3{background-image: url('/images/fournisseurs.jpg') ;color:rgb(19, 94, 89);}
+#d4{background-image: url('/images/composants.jpeg') ; color: #fff;}
+#d5{background-image: url('/images/Sales_Order_vs_Purchase_Order.jpg') ;color:aqua;}
+#d6{background-image: url('/images/sante-economique.jpg') ;color: rgb(25, 25, 101);}
+#d7{background-image: url('/images/sante-economique.jpg') ;color: rgb(25, 25, 101);width: 900px;}
+#d{background-image: url('/images/istockphoto-637234058-170667a.jpg') ;}
+.dash div p{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 10px;}
+#p1{ font-size: 60px;}
+
