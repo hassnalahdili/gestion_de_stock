@@ -128,5 +128,53 @@ Ce projet m'a permis de mettre en pratique plusieurs compétences, notamment :
 Cloner le dépôt :
 
 ```bash
-git clone https://githu
+git clone https://github.com/hassnalahdili/Embition.git
 ```
+
+Accéder au dossier du projet :
+
+```bash
+cd Embition
+```
+
+Installer les dépendances PHP :
+
+```bash
+composer install
+```
+
+Installer les dépendances JavaScript :
+
+```bash
+npm install
+```
+
+Créer le fichier d'environnement :
+
+```bash
+cp .env.example .env
+```
+
+Générer la clé de l'application :
+
+```bash
+php artisan key:generate
+```
+
+Configurer les informations de connexion à la base de données dans le fichier `.env`, puis exécuter les migrations :
+
+```bash
+php artisan migrate
+```
+
+Lancer l'application :
+
+```bash
+php artisan serve
+```
+
+## Auteur
+
+**Hassna LAHDILI**
+
+Projet réalisé individuellement dans le cadre d'un stage chez **Embition Engineering — 2024**.
