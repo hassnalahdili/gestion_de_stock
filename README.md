@@ -128,13 +128,13 @@ Ce projet m'a permis de mettre en pratique plusieurs compétences, notamment :
 Cloner le dépôt :
 
 ```bash
-git clone https://github.com/hassnalahdili/Embition.git
+git clone https://github.com/hassnalahdili/gestion_de_stock.git
 ```
 
 Accéder au dossier du projet :
 
 ```bash
-cd Embition
+cd gestion_de_stock
 ```
 
 Installer les dépendances PHP :
