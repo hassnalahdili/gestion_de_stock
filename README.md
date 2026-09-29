@@ -85,7 +85,7 @@ Le stock est automatiquement mis à jour lors des opérations d'achat et de vent
 ## Technologies utilisées
 
 * **PHP**
-* **Laravel 8**
+* **Laravel 9**
 * **HTML5**
 * **CSS3**
 * **Bootstrap 5**
