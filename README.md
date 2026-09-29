@@ -1,66 +1,132 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Développement d'un site web de gestion de stock
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Description
 
-## About Laravel
+Ce projet consiste en la conception et le développement d'une application web dédiée à la **gestion de stock**.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+L'application permet de gérer les différents éléments liés à l'activité de l'entreprise, notamment les composants, les clients, les fournisseurs, les achats, les ventes, les entrepôts et les catégories.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Le système intègre également une **authentification des utilisateurs** et une gestion des accès selon deux rôles : **administrateur** et **utilisateur/employeur**.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Le stock est automatiquement mis à jour lors des opérations d'achat et de vente.
 
-## Learning Laravel
+## Contexte du projet
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+* **Type :** Projet réalisé individuellement
+* **Contexte :** Stage
+* **Entreprise :** Embition Engineering
+* **Année :** 2024
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Fonctionnalités
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Authentification et gestion des utilisateurs
 
-## Laravel Sponsors
+* Connexion des utilisateurs avec un compte.
+* Gestion de deux rôles :
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+  * Administrateur
+  * Utilisateur / Employeur
+* Gestion des comptes employeurs par l'administrateur :
 
-### Premium Partners
+  * Ajouter un employeur
+  * Modifier les informations d'un employeur
+  * Supprimer un employeur
+  * Afficher les informations d'un employeur
+  * Rechercher un employeur
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+### Gestion des composants
 
-## Contributing
+* Ajouter un composant.
+* Modifier les informations d'un composant.
+* Supprimer un composant.
+* Afficher les informations d'un composant.
+* Rechercher un composant.
+* Gestion des informations telles que le nom, le type, la date d'achat, le prix, la description et l'image.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### Gestion des clients
 
-## Code of Conduct
+* Ajouter un client.
+* Modifier les informations d'un client.
+* Supprimer un client.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### Gestion des fournisseurs
 
-## Security Vulnerabilities
+* Ajouter un fournisseur.
+* Modifier les informations d'un fournisseur.
+* Supprimer un fournisseur.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Gestion des achats
 
-## License
+* Ajouter un achat.
+* Modifier les informations d'un achat.
+* Supprimer un achat.
+* Mise à jour automatique du stock lors des opérations d'achat.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### Gestion des ventes
+
+* Ajouter une vente.
+* Modifier les informations d'une vente.
+* Supprimer une vente.
+* Mise à jour automatique du stock lors des opérations de vente.
+
+### Gestion des entrepôts
+
+* Ajouter un entrepôt.
+* Modifier les informations d'un entrepôt.
+* Supprimer un entrepôt.
+* Gestion de la quantité maximale et de la quantité actuelle.
+
+### Gestion des catégories
+
+* Ajouter une catégorie.
+* Modifier une catégorie.
+* Supprimer une catégorie.
+
+## Technologies utilisées
+
+* **PHP**
+* **Laravel 8**
+* **HTML5**
+* **CSS3**
+* **Bootstrap 5**
+* **JavaScript**
+* **MySQL**
+
+## Architecture générale
+
+L'application repose sur une architecture web permettant de séparer les différentes responsabilités de l'application et de faciliter la gestion des données.
+
+Laravel est utilisé pour le développement de la partie serveur et la gestion de la logique applicative, tandis que HTML, CSS, Bootstrap et JavaScript sont utilisés pour l'interface utilisateur.
+
+MySQL est utilisé pour le stockage et la gestion des données de l'application.
+
+## Compétences mises en pratique
+
+Ce projet m'a permis de mettre en pratique plusieurs compétences, notamment :
+
+* Développement web avec PHP et Laravel.
+* Conception d'interfaces web avec HTML, CSS et Bootstrap.
+* Développement avec JavaScript.
+* Gestion d'une base de données MySQL.
+* Mise en place d'opérations CRUD.
+* Gestion de l'authentification et des rôles utilisateurs.
+* Gestion des relations entre les différentes données de l'application.
+* Gestion automatique des mouvements de stock.
+
+## Installation
+
+### Prérequis
+
+* PHP
+* Composer
+* Laravel
+* MySQL
+* Node.js et npm
+
+### Installation du projet
+
+Cloner le dépôt :
+
+```bash
+git clone https://githu
+```
